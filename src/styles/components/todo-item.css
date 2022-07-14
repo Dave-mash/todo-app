@@ -1,0 +1,28 @@
+.todo-item {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.todo-item:hover{
+    background-color: #343A40;
+    color: #eee;
+}
+.incompelete {
+    text-decoration: underline;
+}
+.todo-item__status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.todo-item__inactive {
+    text-decoration: line-through;
+}
