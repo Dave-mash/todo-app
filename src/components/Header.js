@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { RiPlayListAddLine } from 'react-icons/ri';
 import { v4 as uuidv4 } from 'uuid';
 
 import { clearAllToDos } from '../functions';

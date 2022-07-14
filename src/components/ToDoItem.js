@@ -1,12 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { RiDeleteBin6Line } from 'react-icons/ri';
 
-import { updateToDo, removeToDo, sortToDoList } from '../functions';
+import { removeToDo } from '../functions';
 import '../styles/components/todo-item.css';
 
 const ToDoItem = ({
         todo: { title, time, id, completed } = {},
-        todos,
         setToDos,
         updateToDoStatus
     }) => {
