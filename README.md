@@ -8,13 +8,16 @@ A simplified offline TODO application
 ## Installation
 1. Clone this repository
 ```
-git clone https://github.com/Dave-mash/offline-todo-app.git
+git clone https://github.com/Dave-mash/todo-app.git
 ```
 2. Select project directory and install dependencies
 ```
-cd offline-todo-app && npm i
+cd todo-app && npm i
 ```
 3. Run app
 ```
 npm start
 ```
+
+## live url
+[offline-todo-app](https://offline-todo-app.netlify.app/)
